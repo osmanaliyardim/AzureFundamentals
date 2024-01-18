@@ -1,0 +1,16 @@
+﻿@model List<Blob>
+
+<div class="p-4 container">
+    <div class="row">
+        <h4 class="text-primary">Images</h4>
+    </div>
+    <div class="row">
+        @foreach (var blob in Model)
+        {
+            <div class="col-4 border p-2">
+                <h4 class="text-success">@blob.Title</h4>
+                <img src="@blob.Uri" width="100%" />
+            </div>
+        }
+    </div>
+</div>

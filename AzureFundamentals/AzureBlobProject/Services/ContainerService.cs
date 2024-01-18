@@ -43,7 +43,16 @@ public class ContainerService : IContainerService
 
             await foreach (BlobItem blobItem in blobContainer.GetBlobsAsync())
             {
-                containerAndBlobNames.Add("------Blob Name: " + blobItem.Name);
+                //Get metadata
+                var blobToAdd = blobItem.Name;
+                var blobClient = blobContainer.GetBlobClient(blobToAdd);
+                BlobProperties blobProperties = await blobClient.GetPropertiesAsync();
+                if (blobProperties.Metadata.ContainsKey("title"))
+                {
+                    blobToAdd += " (" + blobProperties.Metadata["title"] + ")";
+                }
+
+                containerAndBlobNames.Add("-----Blob Name: " + blobToAdd);
             }
             containerAndBlobNames.Add("---------------------------------------------------------------------------------------------");
         }
