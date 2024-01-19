@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlobProject", "AzureBlobProject\AzureBlobProject.csproj", "{0D29F8B2-CAB5-4488-93C1-5644B2BCF369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionWeb", "AzureFunctionWeb\AzureFunctionWeb.csproj", "{A75D1E20-83C2-47FC-8366-A6CFB7568896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionWeb", "AzureFunctionWeb\AzureFunctionWeb.csproj", "{A75D1E20-83C2-47FC-8366-A6CFB7568896}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunction", "AzureFunction", "{F21B2D4C-D105-4562-8767-B079D2A5DB53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOsmanFunc", "AzureOsmanFunc\AzureOsmanFunc.csproj", "{0474C172-8EFA-408E-8EE1-693C9E6F29CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureOsmanFunc", "AzureOsmanFunc\AzureOsmanFunc.csproj", "{0474C172-8EFA-408E-8EE1-693C9E6F29CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
