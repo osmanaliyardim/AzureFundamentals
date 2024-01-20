@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunction", "AzureFunct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureOsmanFunc", "AzureOsmanFunc\AzureOsmanFunc.csproj", "{0474C172-8EFA-408E-8EE1-693C9E6F29CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLogicAppWeb", "AzureLogicApp\AzureLogicAppWeb.csproj", "{76C93239-F0FB-41D8-BE28-C62D4479FA8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureLogicApp", "AzureLogicApp", "{C644DE93-74F7-4103-B112-B86F2885BB43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{0474C172-8EFA-408E-8EE1-693C9E6F29CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0474C172-8EFA-408E-8EE1-693C9E6F29CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0474C172-8EFA-408E-8EE1-693C9E6F29CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C93239-F0FB-41D8-BE28-C62D4479FA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C93239-F0FB-41D8-BE28-C62D4479FA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C93239-F0FB-41D8-BE28-C62D4479FA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C93239-F0FB-41D8-BE28-C62D4479FA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A75D1E20-83C2-47FC-8366-A6CFB7568896} = {F21B2D4C-D105-4562-8767-B079D2A5DB53}
 		{0474C172-8EFA-408E-8EE1-693C9E6F29CA} = {F21B2D4C-D105-4562-8767-B079D2A5DB53}
+		{76C93239-F0FB-41D8-BE28-C62D4479FA8D} = {C644DE93-74F7-4103-B112-B86F2885BB43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D6B5AB9-C6B0-4018-8302-31922DF2D496}
