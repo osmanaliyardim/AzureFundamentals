@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunction", "AzureFunct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureOsmanFunc", "AzureOsmanFunc\AzureOsmanFunc.csproj", "{0474C172-8EFA-408E-8EE1-693C9E6F29CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLogicAppWeb", "AzureLogicApp\AzureLogicAppWeb.csproj", "{76C93239-F0FB-41D8-BE28-C62D4479FA8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLogicAppWeb", "AzureLogicApp\AzureLogicAppWeb.csproj", "{76C93239-F0FB-41D8-BE28-C62D4479FA8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureLogicApp", "AzureLogicApp", "{C644DE93-74F7-4103-B112-B86F2885BB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRedisCacheWeb", "AzureRedisCacheWeb\AzureRedisCacheWeb.csproj", "{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{76C93239-F0FB-41D8-BE28-C62D4479FA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76C93239-F0FB-41D8-BE28-C62D4479FA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76C93239-F0FB-41D8-BE28-C62D4479FA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
