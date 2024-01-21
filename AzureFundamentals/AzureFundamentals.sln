@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLogicAppWeb", "AzureLo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureLogicApp", "AzureLogicApp", "{C644DE93-74F7-4103-B112-B86F2885BB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRedisCacheWeb", "AzureRedisCacheWeb\AzureRedisCacheWeb.csproj", "{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureRedisCacheWeb", "AzureRedisCacheWeb\AzureRedisCacheWeb.csproj", "{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureKeyVaultWeb", "AppSettingsManagerWeb\AzureKeyVaultWeb.csproj", "{30EBBA72-F9DA-4E6D-B44D-96152821FE98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77AD357B-2C91-46FA-BF57-1D16B1E4EAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EBBA72-F9DA-4E6D-B44D-96152821FE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EBBA72-F9DA-4E6D-B44D-96152821FE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EBBA72-F9DA-4E6D-B44D-96152821FE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EBBA72-F9DA-4E6D-B44D-96152821FE98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

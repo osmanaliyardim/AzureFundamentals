@@ -1,0 +1,7 @@
+{
+  "Secrets": {
+    "SendGrid": {
+      "ApiKey": "SendGridSampleKey_AppSettings_FromCustomFile"
+    }
+  }
+}
